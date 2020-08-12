@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ex4</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    </head>
+    <body style="background-color:  #599fe5;">
+        <h1>Exercício 4</h1>
+        <a href="../index.html" >Voltar </a>
+        <form>
+            <h3>Cadastro de estudantes</h3>
+            <fieldset>
+                <legend style="color: #fff;">Dados escolares</legend>
+                <label>Escolaridade:</label>
+                <select>
+                    <option>1º Ano</option>
+                    <option>2º Ano</option>
+                    <option>3º Ano</option>
+                </select><br>
+
+                <input type="checkbox" nome="portugues" id="portugues">
+                <label for="portugues">Português</label><br>
+                <input type="checkbox" nome="matematica" id="matematica">
+                <label for="matematica">Matemática</label><br>
+
+                <label>Escola seu professor:</label>
+                <select>
+                    <option>Juliana</option>
+                    <option>Cláudia</option>
+                    <option>Márcio</option>
+                    <option>Gabriel</option>
+                    <option>Vicente</option>
+                    <option>André</option>
+                </select><br>
+            </fieldset>
+            <fieldset>
+                <legend style="color: #fff;">Descrição</legend>
+                <textarea name="descricao" placeholder="Minha descrição" style="width: 100%; height: 50px;"></textarea>
+            </fieldset>
+            <input type="reset" value="Limpar" style="margin-left: 42%; margin-top: 5px;">
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ex5</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    </head>
+    <body style="background-color: #00aca5;">
+        <h1>Exercício 5</h1>
+        <a href="../index.html" >Voltar </a>
+        <h1>Clientes cadastrados</h1>
+        <table>
+            <tr>
+                <td class="exer5-linha1">Cliente</td>
+                <td class="exer5-linha1">Idade</td>
+                <td class="exer5-linha1">Cidade</td>
+                <td class="exer5-linha1">Estado</td>
+                <td class="exer5-linha1">E-mail</td>
+            </tr>
+            <tr>
+                <td class="exer5">Ana</td>
+                <td class="exer5">29</td>
+                <td class="exer5">Curitiba</td>
+                <td class="exer5">Paraná</td>
+                <td class="exer5">ana@gmail.com</td>
+            </tr>
+            <tr>
+                <td class="exer5">Fernada</td>
+                <td class="exer5">42</td>
+                <td class="exer5">Joinville</td>
+                <td class="exer5">Santa Catarina</td>
+                <td class="exer5">fernanda@gmail</td>
+            </tr>
+            <tr>
+                <td class="exer5">Rodrigo</td>
+                <td class="exer5">70</td>
+                <td class="exer5">Curitiba</td>
+                <td class="exer5">Paraná</td>
+                <td class="exer5">rodigro@gmail</td>
+            </tr>
+        </table>
+
+        <fieldset style="background-color: #007771; border-color: #000; color: #fff;">
+            <legend style="background-color: #000; color: #fff">Cadastrar novo cliente</legend>
+            <form>
+                <label>Nome:</label>
+                <input type="text" name="nome"><br>
+
+                <label>Idade:</label>
+                <input type="number" name="idade"><br>
+
+                <label>Cidade:</label>
+                <input type="text" name="cidade"><br>
+
+                <label>Estado:</label>
+                <select>
+                    <option>Paraná</option>
+                    <option>Santa Catarina</option>
+                    <option>São Paulo</option>
+                    <option>Rio de Janeiro</option>
+                </select><br>
+
+                <label>E-mail:</label>
+                <input type="email" name="email"><br>
+
+                <input type="reset" value="Cancelar" style="background-color: red; color: #fff; border: none; padding: 3%; margin-top: 15px;">
+                <input type="submit" value="Cadastrar" style="background-color: green; color: #fff;  border: none; padding: 3%;">
+            </form>
+        </fieldset>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+body{
+    background-color: #cccccc;
+}
+fieldset{ 
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3%;
+}
+legend{
+    color: #0170c4;
+    font-weight: bold
+}
+.campo{
+    width: 250px;
+    margin-top: 1%;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cadastro{
+    margin-top: 2px;
+}
+.exer5{
+    background-color: #0170c4;
+    color: #fff;
+}
+.exer5-linha1{
+    background-color: #000;
+    color: #fff;
+}
+a{
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #0170c4;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+}
+h1{
+    display: block;
+    text-align: center;    
+}
+p{
+    display: block;
+    text-align: center;
+}
+h3{
+    text-align: center;
+    color: #ffffff;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ex2</title>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+    </head>
+    <body>
+        <h1>Exercício 2</h1>
+        <a href="../index.html" >Voltar </a>
+        <fieldset>
+            <legend>Lista de materiais</legend>
+            <ol>
+                <li>Lápis</li>
+                <li>Caneta</li>
+                <li>Papel</li>
+                <li>Tesoura</li>
+            </ol>
+        </fieldset><br>
+        <fieldset>
+            <legend>Cadastrar novo material</legend>
+                <form>
+                    <input class="campo" type="text" required id="nome" placeholder="Nome"><br>
+                    <input class="campo" type="text" required id="preco" placeholder="Preço"><br>
+                    
+                    <label>Quantidade:</label>
+                    <input type="number" required id="qnt" style="margin-top: 1%;"><br>
+
+                    <label>Devolução:</label>
+                    <input type="radio" id="sim" name="yes" value="sim"><label>Sim</label>
+                    <input type="radio" id="nao" name="no" value="nao"><label>Não</label><br>
+
+                    <input type="reset" id="limpar" name="limpar" value="Limpar">
+                    <input type="submit" id="cadastrar" name="cadastrar" value="Cadastrar">
+                </form>
+        </fieldset><br>
+        <fieldset>
+            <legend>Dados do último material cadastrado</legend>
+            <table border="1">
+                <tr>
+                    <td>Nome</td>
+                    <td>Lápis</td>
+                </tr>
+                <tr>
+                    <td>Preço</td>
+                    <td>R$12,30</td>
+                </tr>
+                <tr>
+                    <td>Quantidade</td>
+                    <td>200</td>
+                </tr>
+                <tr>
+                    <td>Devolução</td>
+                    <td>Sim</td>
+                </tr>
+            </table>
+        </fieldset>
+    </body>
+</html>
